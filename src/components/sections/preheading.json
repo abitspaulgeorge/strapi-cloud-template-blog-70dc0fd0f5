@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_preheadings",
+  "info": {
+    "displayName": "Preheading"
+  },
+  "options": {},
+  "attributes": {
+    "preheading": {
+      "type": "string"
+    }
+  }
+}
