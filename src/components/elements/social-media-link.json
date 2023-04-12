@@ -10,7 +10,9 @@
       "type": "string"
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "default": "/",
+      "required": true
     },
     "socialMediaIcon": {
       "type": "media",
@@ -19,6 +21,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
