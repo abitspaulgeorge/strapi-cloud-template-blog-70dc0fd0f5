@@ -54,7 +54,8 @@
       "type": "dynamiczone",
       "components": [
         "sections.hero",
-        "sections.preheading"
+        "sections.preheading",
+        "sections.title-text-two-columns"
       ]
     }
   }
