@@ -1,12 +1,78 @@
 {
   "collectionName": "components_layout_footers",
   "info": {
-    "displayName": "Footer"
+    "displayName": "Footer",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "contactLink": {
+      "displayName": "Contact Link Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.contact-link-footer"
+    },
+    "footerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logoText": {
+      "type": "string"
+    },
+    "socialMediaLinks": {
+      "displayName": "Social Media Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-media-link"
+    },
+    "mobileMenuLeftColumn": {
+      "displayName": "Mobile Menu Left Column Footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.mobile-menu-left-column-footer"
+    },
+    "mobileMenuRightColumn": {
+      "displayName": "Mobile Menu Right Column Footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.mobile-menu-right-column-footer"
+    },
+    "deskMenuFirstColumn": {
+      "displayName": "Desk Menu First Column Footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.desk-menu-first-column-footer"
+    },
+    "deskMenuSecondColumn": {
+      "displayName": "Desk Menu Second Column Footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.desk-menu-second-column-footer"
+    },
+    "deskMenuThirdColumn": {
+      "displayName": "Desk Menu Third Column Footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.desk-menu-third-column-footer"
+    },
+    "contactExternalsLinks": {
+      "displayName": "Contact Externals Link Footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.contact-externals-link-footer"
+    },
+    "copyright": {
+      "displayName": "Copyright Footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.copyright-footer"
     }
   }
 }

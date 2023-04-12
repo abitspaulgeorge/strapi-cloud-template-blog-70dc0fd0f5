@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_social_media_links",
+  "info": {
+    "displayName": "Social Media Link Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "socialMediaIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
