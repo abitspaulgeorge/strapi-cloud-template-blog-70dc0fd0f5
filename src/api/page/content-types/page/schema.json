@@ -55,7 +55,8 @@
       "components": [
         "sections.hero",
         "sections.preheading",
-        "sections.title-text-two-columns"
+        "sections.title-text-two-columns",
+        "sections.logos-carousel"
       ]
     }
   }
