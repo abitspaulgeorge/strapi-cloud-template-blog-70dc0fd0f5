@@ -1,12 +1,18 @@
 {
   "collectionName": "components_sections_preheadings",
   "info": {
-    "displayName": "Preheading"
+    "displayName": "Preheading",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "preheading": {
       "type": "string"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
     }
   }
 }

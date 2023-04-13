@@ -56,7 +56,8 @@
         "sections.hero",
         "sections.preheading",
         "sections.title-text-two-columns",
-        "sections.logos-carousel"
+        "sections.logos-carousel",
+        "sections.featured-numbers-slider"
       ]
     }
   }
