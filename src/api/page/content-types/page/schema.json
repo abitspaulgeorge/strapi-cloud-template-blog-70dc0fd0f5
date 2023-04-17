@@ -59,7 +59,8 @@
         "sections.logos-carousel",
         "sections.featured-numbers-slider",
         "sections.professional-service",
-        "sections.managed-service-slider"
+        "sections.managed-service-slider",
+        "sections.title-text-with-button"
       ]
     }
   }
