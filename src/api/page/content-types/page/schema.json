@@ -60,7 +60,8 @@
         "sections.featured-numbers-slider",
         "sections.professional-service",
         "sections.managed-service-slider",
-        "sections.title-text-with-button"
+        "sections.title-text-with-button",
+        "sections.title-with-parallax"
       ]
     }
   }

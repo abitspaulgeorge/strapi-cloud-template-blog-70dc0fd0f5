@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_title_with_parallaxes",
+  "info": {
+    "displayName": "Title With Parallax"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imgParallax": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}
