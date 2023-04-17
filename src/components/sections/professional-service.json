@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_professional_services",
+  "info": {
+    "displayName": "Professional Service"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "customLink": {
+      "displayName": "Professional Service Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.professional-service-link"
+    },
+    "professionalServiceList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.professional-service-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}
