@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@notum-cz/strapi-plugin-record-locking": "0.3.0",
     "@strapi/plugin-graphql": "4.9.1",
     "@strapi/plugin-i18n": "4.9.1",
     "@strapi/plugin-users-permissions": "4.9.1",
