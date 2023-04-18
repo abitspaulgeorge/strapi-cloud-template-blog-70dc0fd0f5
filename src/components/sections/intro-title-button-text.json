@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_intro_title_button_texts",
+  "info": {
+    "displayName": "Intro Title Button Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "cta": {
+      "displayName": "Intro Title Button Text Cta",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.intro-title-button-text-cta"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

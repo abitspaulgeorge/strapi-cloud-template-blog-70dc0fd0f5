@@ -61,7 +61,9 @@
         "sections.professional-service",
         "sections.managed-service-slider",
         "sections.title-text-with-button",
-        "sections.title-with-parallax"
+        "sections.title-with-parallax",
+        "sections.img-text-with-dark-background",
+        "sections.intro-title-button-text"
       ]
     }
   }
