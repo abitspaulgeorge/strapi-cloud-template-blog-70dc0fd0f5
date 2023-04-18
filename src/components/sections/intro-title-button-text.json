@@ -1,12 +1,13 @@
 {
   "collectionName": "components_sections_intro_title_button_texts",
   "info": {
-    "displayName": "Intro Title Button Text"
+    "displayName": "Intro Title Button Text",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "text": {
       "type": "text"
