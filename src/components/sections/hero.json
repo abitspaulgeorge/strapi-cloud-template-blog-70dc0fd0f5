@@ -1,12 +1,35 @@
 {
   "collectionName": "components_sections_heroes",
   "info": {
-    "displayName": "Hero"
+    "displayName": "Hero",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "preheading": {
       "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "videoFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "videoReact": {
+      "type": "string"
+    },
+    "imageHero": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
