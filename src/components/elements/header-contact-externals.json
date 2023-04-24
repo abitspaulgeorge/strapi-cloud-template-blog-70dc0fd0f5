@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_header_contact_externals",
+  "info": {
+    "displayName": "Header Contact Externals"
+  },
+  "options": {},
+  "attributes": {
+    "menuItem": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "ariaLabel": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "contactIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,12 +1,42 @@
 {
   "collectionName": "components_layout_headers",
   "info": {
-    "displayName": "Header"
+    "displayName": "Header",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "headerLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "iconLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "nav": {
+      "displayName": "Header Nav",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.header-nav"
+    },
+    "contactExternalsLinks": {
+      "displayName": "Header Contact Externals",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.header-contact-externals"
+    },
+    "socialMediaLinks": {
+      "displayName": "Header Social Media",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.header-social-media"
     }
   }
 }

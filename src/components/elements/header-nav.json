@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_header_navs",
+  "info": {
+    "displayName": "Header Nav"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "submenu": {
+      "displayName": "Header Nav Submenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.header-nav-submenu"
+    }
+  }
+}

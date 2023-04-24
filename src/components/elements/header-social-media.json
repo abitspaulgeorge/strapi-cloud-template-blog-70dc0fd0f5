@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_header_social_medias",
+  "info": {
+    "displayName": "Header Social Media"
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "socialMediaIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

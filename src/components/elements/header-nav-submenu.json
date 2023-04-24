@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_header_nav_submenus",
+  "info": {
+    "displayName": "Header Nav Submenu"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
