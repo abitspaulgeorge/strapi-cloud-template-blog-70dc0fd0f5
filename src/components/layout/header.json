@@ -37,6 +37,9 @@
       "type": "component",
       "repeatable": true,
       "component": "elements.header-social-media"
+    },
+    "transparentHeader": {
+      "type": "json"
     }
   }
 }
