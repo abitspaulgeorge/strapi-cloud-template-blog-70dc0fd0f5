@@ -63,7 +63,8 @@
         "sections.title-text-with-button",
         "sections.title-with-parallax",
         "sections.img-text-with-dark-background",
-        "sections.intro-title-button-text"
+        "sections.intro-title-button-text",
+        "sections.icon-grid"
       ]
     }
   }
