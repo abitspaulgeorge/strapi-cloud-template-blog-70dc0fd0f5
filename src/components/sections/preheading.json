@@ -9,6 +9,10 @@
     "preheading": {
       "type": "string"
     },
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
     "paddings": {
       "type": "component",
       "repeatable": false,

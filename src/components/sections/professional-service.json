@@ -11,6 +11,10 @@
     "text": {
       "type": "text"
     },
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
     "customLink": {
       "displayName": "Professional Service Link",
       "type": "component",

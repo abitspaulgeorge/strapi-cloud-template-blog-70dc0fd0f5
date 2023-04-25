@@ -11,6 +11,10 @@
     "text": {
       "type": "text"
     },
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
     "customLink": {
       "displayName": "Title Text Button Link",
       "type": "component",

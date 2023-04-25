@@ -8,6 +8,10 @@
     "title": {
       "type": "string"
     },
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
     "imgParallax": {
       "allowedTypes": [
         "images"
