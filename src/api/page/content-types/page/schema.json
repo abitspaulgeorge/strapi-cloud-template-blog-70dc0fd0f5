@@ -68,7 +68,9 @@
         "sections.intro-text-one-column",
         "sections.intro-text-pattern",
         "sections.intro-text-two-columns",
-        "sections.intro-title-text"
+        "sections.intro-title-text",
+        "sections.image-text-counters",
+        "sections.image-video-full"
       ]
     }
   }
