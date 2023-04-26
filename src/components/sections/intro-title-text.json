@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_intro_title_texts",
+  "info": {
+    "displayName": "Intro Title Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "containerOpt": {
+      "type": "boolean",
+      "default": false
+    },
+    "textSize": {
+      "type": "enumeration",
+      "enum": [
+        "medium",
+        "big"
+      ],
+      "default": "medium",
+      "required": true
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

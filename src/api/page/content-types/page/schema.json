@@ -64,7 +64,11 @@
         "sections.title-with-parallax",
         "sections.img-text-with-dark-background",
         "sections.intro-title-button-text",
-        "sections.icon-grid"
+        "sections.icon-grid",
+        "sections.intro-text-one-column",
+        "sections.intro-text-pattern",
+        "sections.intro-text-two-columns",
+        "sections.intro-title-text"
       ]
     }
   }
