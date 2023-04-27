@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_featured_number_grid_items",
+  "info": {
+    "displayName": "Featured Number Grid Item"
+  },
+  "options": {},
+  "attributes": {
+    "featuredNumberValue": {
+      "type": "string"
+    },
+    "featuredNumberText": {
+      "type": "string"
+    }
+  }
+}
