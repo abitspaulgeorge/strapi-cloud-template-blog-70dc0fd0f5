@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_text_counters",
+  "info": {
+    "displayName": "Text Counters"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "countersData": {
+      "displayName": "Text Counters Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.text-counters-item"
+    },
+    "imgParallaxLeft": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

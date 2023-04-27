@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_image_title_list_darks",
+  "info": {
+    "displayName": "Image Title List Dark"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageListDark": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageTitleList": {
+      "displayName": "Image Title List Dark Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.image-title-list-dark-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}
