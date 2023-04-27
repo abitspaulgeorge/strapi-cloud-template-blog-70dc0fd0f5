@@ -28,11 +28,12 @@
     "slug": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "string",
-      "regex": "^$|^[a-zA-Z/-]+$"
+      "regex": "^$|^[a-zA-Z0-9/-]+$",
+      "unique": false
     },
     "metadata": {
       "type": "component",

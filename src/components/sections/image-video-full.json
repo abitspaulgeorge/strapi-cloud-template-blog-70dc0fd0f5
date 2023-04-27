@@ -1,35 +1,29 @@
 {
   "collectionName": "components_sections_image_video_fulls",
   "info": {
-    "displayName": "Image Video Full"
+    "displayName": "Image Video Full",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "textFirstColumn": {
-      "type": "text"
-    },
-    "textSecondColumn": {
-      "type": "text"
-    },
     "videoFull": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "videoFullReact": {
       "type": "string"
     },
     "imageFull": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "pattern": {
       "type": "boolean",
