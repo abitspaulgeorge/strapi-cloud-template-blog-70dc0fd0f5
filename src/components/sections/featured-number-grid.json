@@ -1,10 +1,15 @@
 {
   "collectionName": "components_sections_featured_number_grids",
   "info": {
-    "displayName": "Featured Number Grid"
+    "displayName": "Featured Number Grid",
+    "description": ""
   },
   "options": {},
   "attributes": {
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
     "featuredNumberGrid": {
       "displayName": "Featured Number Grid Item",
       "type": "component",
