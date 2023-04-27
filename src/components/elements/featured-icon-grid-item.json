@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_featured_icon_grid_items",
+  "info": {
+    "displayName": "Featured Icon Grid Item"
+  },
+  "options": {},
+  "attributes": {
+    "featuredIconText": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

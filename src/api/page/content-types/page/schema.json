@@ -72,7 +72,8 @@
         "sections.intro-title-text",
         "sections.image-text-counters",
         "sections.image-video-full",
-        "sections.featured-number-grid"
+        "sections.featured-number-grid",
+        "sections.featured-icon-grid"
       ]
     }
   }
