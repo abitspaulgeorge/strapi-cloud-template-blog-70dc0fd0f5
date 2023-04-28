@@ -76,7 +76,8 @@
         "sections.featured-icon-grid",
         "sections.image-title-list-dark",
         "sections.parallax-text-two-columns",
-        "sections.text-counters"
+        "sections.text-counters",
+        "sections.icon-text-slider"
       ]
     }
   }
