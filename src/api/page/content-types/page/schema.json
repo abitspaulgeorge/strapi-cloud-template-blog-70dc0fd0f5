@@ -77,7 +77,8 @@
         "sections.image-title-list-dark",
         "sections.parallax-text-two-columns",
         "sections.text-counters",
-        "sections.icon-text-slider"
+        "sections.icon-text-slider",
+        "sections.title-block"
       ]
     }
   }

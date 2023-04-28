@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_title_blocks",
+  "info": {
+    "displayName": "Title Block"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "textAlign": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "start",
+        "end"
+      ],
+      "default": "center"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}
