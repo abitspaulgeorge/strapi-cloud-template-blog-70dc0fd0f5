@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_title_blocks",
   "info": {
-    "displayName": "Title Block"
+    "displayName": "Title Block",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -21,6 +22,10 @@
       "type": "component",
       "repeatable": false,
       "component": "padding.padding"
+    },
+    "bottomLine": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
