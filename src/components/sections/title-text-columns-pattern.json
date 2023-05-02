@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_title_text_columns_patterns",
+  "info": {
+    "displayName": "Title Text Columns Pattern"
+  },
+  "options": {},
+  "attributes": {
+    "preheading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    },
+    "headingSize": {
+      "type": "boolean",
+      "default": false
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

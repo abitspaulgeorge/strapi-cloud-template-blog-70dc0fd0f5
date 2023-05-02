@@ -78,7 +78,8 @@
         "sections.parallax-text-two-columns",
         "sections.text-counters",
         "sections.icon-text-slider",
-        "sections.title-block"
+        "sections.title-block",
+        "sections.title-text-columns-pattern"
       ]
     }
   }
