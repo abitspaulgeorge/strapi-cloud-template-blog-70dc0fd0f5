@@ -79,7 +79,8 @@
         "sections.text-counters",
         "sections.icon-text-slider",
         "sections.title-block",
-        "sections.title-text-columns-pattern"
+        "sections.title-text-columns-pattern",
+        "sections.image-title-text-pattern"
       ]
     }
   }
