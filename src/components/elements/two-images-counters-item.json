@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_two_images_counters_items",
+  "info": {
+    "displayName": "Two Images Counters Item"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_sections_two_images_counters",
+  "info": {
+    "displayName": "Two Images Counters"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "imageCountersBig": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageCountersSmall": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imgParallaxLeft": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "countersData": {
+      "displayName": "Two Images Counters Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.two-images-counters-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}
