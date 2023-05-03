@@ -80,7 +80,8 @@
         "sections.icon-text-slider",
         "sections.title-block",
         "sections.title-text-columns-pattern",
-        "sections.image-title-text-pattern"
+        "sections.image-title-text-pattern",
+        "sections.story-slider"
       ]
     }
   }

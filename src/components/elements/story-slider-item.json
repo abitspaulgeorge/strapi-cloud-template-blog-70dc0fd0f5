@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_story_slider_items",
+  "info": {
+    "displayName": "Story Slider Item"
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "nameAndJob": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
