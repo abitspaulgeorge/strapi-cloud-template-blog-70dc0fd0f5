@@ -83,7 +83,8 @@
         "sections.image-title-text-pattern",
         "sections.story-slider",
         "sections.two-images-counters",
-        "sections.map-block"
+        "sections.map-block",
+        "sections.two-columns-list"
       ]
     }
   }

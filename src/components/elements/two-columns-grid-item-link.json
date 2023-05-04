@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_two_columns_grid_item_links",
+  "info": {
+    "displayName": "Two Columns Grid Item Link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

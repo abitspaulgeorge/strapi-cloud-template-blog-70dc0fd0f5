@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_two_columns_grid_items",
+  "info": {
+    "displayName": "Two Columns Grid Item"
+  },
+  "options": {},
+  "attributes": {
+    "numberItem": {
+      "type": "string"
+    },
+    "titleItem": {
+      "type": "string"
+    },
+    "textItem": {
+      "type": "text"
+    },
+    "customLink": {
+      "displayName": "Two Columns Grid Item Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.two-columns-grid-item-link"
+    }
+  }
+}
