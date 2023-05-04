@@ -1,19 +1,25 @@
 {
   "collectionName": "components_sections_image_title_list_darks",
   "info": {
-    "displayName": "Image Title List Dark"
+    "displayName": "Image Title List Dark",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
+    "listType": {
+      "type": "boolean",
+      "default": false
+    },
     "imageListDark": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "imageTitleList": {
       "displayName": "Image Title List Dark Item",
