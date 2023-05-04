@@ -84,7 +84,8 @@
         "sections.story-slider",
         "sections.two-images-counters",
         "sections.map-block",
-        "sections.two-columns-list"
+        "sections.two-columns-list",
+        "sections.contact"
       ]
     }
   }
