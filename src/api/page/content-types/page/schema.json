@@ -85,7 +85,8 @@
         "sections.two-images-counters",
         "sections.map-block",
         "sections.two-columns-list",
-        "sections.contact"
+        "sections.contact",
+        "sections.vertical-timeline"
       ]
     }
   }
