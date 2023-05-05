@@ -86,7 +86,8 @@
         "sections.map-block",
         "sections.two-columns-list",
         "sections.contact",
-        "sections.vertical-timeline"
+        "sections.vertical-timeline",
+        "sections.list-services"
       ]
     }
   }
