@@ -13,6 +13,10 @@
       "type": "boolean",
       "default": false
     },
+    "bgLight": {
+      "type": "boolean",
+      "default": false
+    },
     "imageListDark": {
       "type": "media",
       "multiple": false,
