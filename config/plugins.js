@@ -27,7 +27,7 @@ module.exports = ({ env }) => ({
         amazon: `https://${env("AWS_SES_ENDPOINT")}`,
       },
       settings: {
-        defaultFrom: "no-reply@advancedbits.com",
+        defaultFrom: env("FROM_CONTACT_EMAIL"),
       },
     },
   },
