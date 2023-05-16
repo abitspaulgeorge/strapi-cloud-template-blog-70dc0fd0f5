@@ -13,6 +13,7 @@ module.exports = [
             "blob:",
             "*.strapi.io",
             "advanced-bits.s3.amazonaws.com",
+            "advanced-bits-s3.b-cdn.net",
           ],
           "media-src": [
             "'self'",
@@ -20,6 +21,7 @@ module.exports = [
             "blob:",
             "*.strapi.io",
             "advanced-bits.s3.amazonaws.com",
+            "advanced-bits-s3.b-cdn.net",
           ],
           upgradeInsecureRequests: null,
         },
