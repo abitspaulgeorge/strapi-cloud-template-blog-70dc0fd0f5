@@ -19,17 +19,4 @@ module.exports = ({ env }) => ({
   "record-locking": {
     enabled: true,
   },
-  email: {
-    config: {
-      provider: "amazon-ses",
-      providerOptions: {
-        key: env("AWS_SES_KEY"),
-        secret: env("AWS_SES_SECRET"),
-        amazon: `https://${env("AWS_SES_ENDPOINT")}`,
-      },
-      settings: {
-        defaultFrom: env("FROM_CONTACT_EMAIL"),
-      },
-    },
-  },
 });

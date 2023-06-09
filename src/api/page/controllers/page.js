@@ -21,7 +21,6 @@ module.exports = createCoreController("api::page.page", ({ strapi }) => ({
       return ctx.badRequest("Some properties are missing");
     }
 
-    const text = `Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\nMessage: ${message}`;
     const html = `
       <p>
         <strong> Name </strong>: ${name} <br />
@@ -37,9 +36,9 @@ module.exports = createCoreController("api::page.page", ({ strapi }) => ({
       .service("api::page.page")
       .sendEmail(
         process.env.FROM_CONTACT_EMAIL,
+        process.env.FROM_NAME_CONTACT_EMAIL,
         process.env.TO_CONTACT_EMAIL,
-        "Contact form",
-        text,
+        "ABITS Website Leads",
         html
       );
 

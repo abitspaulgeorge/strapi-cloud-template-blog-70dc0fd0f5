@@ -9,17 +9,21 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^2.33.0"
+  },
   "dependencies": {
+    "@azure/identity": "3.2.2",
+    "@microsoft/microsoft-graph-client": "3.0.5",
     "@notum-cz/strapi-plugin-record-locking": "0.3.0",
-    "@strapi/plugin-graphql": "4.10.4",
-    "@strapi/plugin-i18n": "4.10.4",
-    "@strapi/plugin-users-permissions": "4.10.4",
-    "@strapi/provider-email-amazon-ses": "4.10.4",
-    "@strapi/provider-upload-aws-s3": "4.10.4",
-    "@strapi/strapi": "4.10.4",
-    "better-sqlite3": "8.3.0",
-    "pg": "8.10.0"
+    "@strapi/plugin-graphql": "4.10.8",
+    "@strapi/plugin-i18n": "4.10.8",
+    "@strapi/plugin-users-permissions": "4.10.8",
+    "@strapi/provider-upload-aws-s3": "4.10.8",
+    "@strapi/strapi": "4.10.8",
+    "better-sqlite3": "8.4.0",
+    "isomorphic-fetch": "3.0.0",
+    "pg": "8.11.0"
   },
   "author": {
     "name": "A Strapi developer"
