@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_list_service_item_links",
+  "info": {
+    "displayName": "List Service Item Link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

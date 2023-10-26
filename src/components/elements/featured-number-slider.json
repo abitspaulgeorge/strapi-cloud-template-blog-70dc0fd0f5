@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_featured_number_sliders",
+  "info": {
+    "displayName": "Featured Number Slider"
+  },
+  "options": {},
+  "attributes": {
+    "featuredNumber": {
+      "type": "string"
+    },
+    "featuredNumberDescription": {
+      "type": "text"
+    }
+  }
+}

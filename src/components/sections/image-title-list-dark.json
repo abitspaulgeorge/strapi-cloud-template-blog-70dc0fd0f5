@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_sections_image_title_list_darks",
+  "info": {
+    "displayName": "Image Title List Dark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "listType": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgLight": {
+      "type": "boolean",
+      "default": false
+    },
+    "imageListDark": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageTitleList": {
+      "displayName": "Image Title List Dark Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.image-title-list-dark-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

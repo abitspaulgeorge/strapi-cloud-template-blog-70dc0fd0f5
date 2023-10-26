@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_story_sliders",
+  "info": {
+    "displayName": "Story Slider"
+  },
+  "options": {},
+  "attributes": {
+    "storySliderTitle": {
+      "type": "string"
+    },
+    "storySlider": {
+      "displayName": "Story Slider Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.story-slider-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

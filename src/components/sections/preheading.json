@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_preheadings",
+  "info": {
+    "displayName": "Preheading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preheading": {
+      "type": "string"
+    },
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

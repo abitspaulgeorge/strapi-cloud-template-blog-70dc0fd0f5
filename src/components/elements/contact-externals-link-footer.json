@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_contact_externals_link_footers",
+  "info": {
+    "displayName": "Contact Externals Link Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "menuItem": {
+      "type": "string"
+    },
+    "contactIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_list_services",
+  "info": {
+    "displayName": "List Services"
+  },
+  "options": {},
+  "attributes": {
+    "imgParallax": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "services": {
+      "displayName": "List Service Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.list-service-item"
+    }
+  }
+}

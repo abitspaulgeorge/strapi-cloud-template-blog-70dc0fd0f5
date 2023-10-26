@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_image_text_counter_items",
+  "info": {
+    "displayName": "Image Text Counter Item"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}

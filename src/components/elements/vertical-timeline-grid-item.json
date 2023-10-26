@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_vertical_timeline_grid_items",
+  "info": {
+    "displayName": "Vertical Timeline Grid Item"
+  },
+  "options": {},
+  "attributes": {
+    "numberPosition": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

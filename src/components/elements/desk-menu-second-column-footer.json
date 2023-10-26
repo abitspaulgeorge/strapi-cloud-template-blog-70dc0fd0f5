@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_desk_menu_second_column_footers",
+  "info": {
+    "displayName": "Desk Menu Second Column Footer"
+  },
+  "options": {},
+  "attributes": {
+    "menuItem": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

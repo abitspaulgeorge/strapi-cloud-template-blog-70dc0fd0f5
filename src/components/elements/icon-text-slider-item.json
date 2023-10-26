@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_icon_text_slider_items",
+  "info": {
+    "displayName": "Icon Text Slider Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

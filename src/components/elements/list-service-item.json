@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_list_service_items",
+  "info": {
+    "displayName": "List Service Item"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "serviceLink": {
+      "displayName": "List Service Item Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.list-service-item-link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "listDetails": {
+      "type": "json"
+    }
+  }
+}

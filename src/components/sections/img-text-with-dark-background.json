@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_img_text_with_dark_backgrounds",
+  "info": {
+    "displayName": "Img Text With Dark Background",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "customLink": {
+      "displayName": "Img Text Dark Background Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.img-text-dark-background-link"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

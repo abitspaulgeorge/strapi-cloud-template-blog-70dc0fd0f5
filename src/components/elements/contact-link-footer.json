@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_contact_link_footers",
+  "info": {
+    "displayName": "Contact Link Footer"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
