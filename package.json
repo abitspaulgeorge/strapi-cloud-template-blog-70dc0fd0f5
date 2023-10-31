@@ -19,7 +19,6 @@
     "@strapi/plugin-graphql": "4.15.0",
     "@strapi/plugin-i18n": "4.15.0",
     "@strapi/plugin-users-permissions": "4.15.0",
-    "@strapi/provider-upload-aws-s3": "4.15.0",
     "@strapi/strapi": "4.15.0",
     "better-sqlite3": "9.0.0",
     "isomorphic-fetch": "3.0.0",
