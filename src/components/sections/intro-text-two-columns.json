@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_intro_text_two_columns",
+  "info": {
+    "displayName": "Intro Text Two Columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
+    "textFirstColumn": {
+      "type": "text"
+    },
+    "textSecondColumn": {
+      "type": "text"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

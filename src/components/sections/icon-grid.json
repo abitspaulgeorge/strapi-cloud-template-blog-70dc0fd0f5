@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_icon_grids",
+  "info": {
+    "displayName": "Icon Grid"
+  },
+  "options": {},
+  "attributes": {
+    "iconGridItem": {
+      "displayName": "Icon Grid Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.icon-grid-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

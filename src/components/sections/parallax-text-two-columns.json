@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_parallax_text_two_columns",
+  "info": {
+    "displayName": "Parallax Text Two Columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "textFirsColumn": {
+      "type": "text"
+    },
+    "textSecondColumn": {
+      "type": "text"
+    },
+    "imgParallaxLeft": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

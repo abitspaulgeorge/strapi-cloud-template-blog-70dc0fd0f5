@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_featured_icon_grids",
+  "info": {
+    "displayName": "Featured Icon Grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lightBg": {
+      "type": "boolean",
+      "default": false
+    },
+    "featuredIconGrid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.featured-icon-grid-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

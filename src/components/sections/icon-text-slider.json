@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_icon_text_sliders",
+  "info": {
+    "displayName": "Icon Text Slider"
+  },
+  "options": {},
+  "attributes": {
+    "iconTextSliderTitle": {
+      "type": "string"
+    },
+    "iconTextSlider": {
+      "displayName": "Icon Text Slider Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.icon-text-slider-item"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

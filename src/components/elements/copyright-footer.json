@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_elements_copyright_footers",
+  "info": {
+    "displayName": "Copyright Footer"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

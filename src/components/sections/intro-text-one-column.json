@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_intro_text_one_columns",
+  "info": {
+    "displayName": "Intro Text One Column"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

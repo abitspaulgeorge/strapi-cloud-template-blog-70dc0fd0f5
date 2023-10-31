@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_mobile_menu_left_column_footers",
+  "info": {
+    "displayName": "Mobile Menu Left Column Footer"
+  },
+  "options": {},
+  "attributes": {
+    "menuItem": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

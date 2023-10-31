@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_managed_service_slider_items",
+  "info": {
+    "displayName": "Managed Service Slider Item"
+  },
+  "options": {},
+  "attributes": {
+    "serviceNumber": {
+      "type": "string"
+    },
+    "serviceName": {
+      "type": "string"
+    },
+    "serviceDescription": {
+      "type": "text"
+    },
+    "serviceImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "learnMoreLink": {
+      "displayName": "Managed Service Slider Item Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.managed-service-slider-item-link"
+    }
+  }
+}

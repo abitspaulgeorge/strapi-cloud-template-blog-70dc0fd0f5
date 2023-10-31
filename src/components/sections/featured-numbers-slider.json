@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_featured_numbers_sliders",
+  "info": {
+    "displayName": "Featured Numbers Slider"
+  },
+  "options": {},
+  "attributes": {
+    "featuredNumberSlider": {
+      "displayName": "Featured Number Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.featured-number-slider"
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_elements_image_title_list_dark_items",
+  "info": {
+    "displayName": "Image Title List Dark Item"
+  },
+  "options": {},
+  "attributes": {
+    "listItem": {
+      "type": "string"
+    }
+  }
+}

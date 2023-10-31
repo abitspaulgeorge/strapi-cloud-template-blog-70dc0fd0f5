@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_contact_externals_links",
+  "info": {
+    "displayName": "Contact Externals Link"
+  },
+  "options": {},
+  "attributes": {
+    "menuItem": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "ariaLabel": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "contactIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

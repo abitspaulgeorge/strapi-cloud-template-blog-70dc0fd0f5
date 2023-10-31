@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_padding_paddings",
+  "info": {
+    "displayName": "Padding"
+  },
+  "options": {},
+  "attributes": {
+    "ptDesktop": {
+      "type": "string",
+      "default": "0"
+    },
+    "pbDesktop": {
+      "type": "string",
+      "default": "0"
+    },
+    "ptMobile": {
+      "type": "string",
+      "default": "0"
+    },
+    "pbMobile": {
+      "type": "string",
+      "default": "0"
+    }
+  }
+}

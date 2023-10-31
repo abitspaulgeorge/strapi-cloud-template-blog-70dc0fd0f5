@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_sections_image_title_text_patterns",
+  "info": {
+    "displayName": "Image Title Text Pattern",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "imagePosition": {
+      "type": "boolean",
+      "default": false
+    },
+    "patternColor": {
+      "type": "enumeration",
+      "enum": [
+        "gray",
+        "color"
+      ],
+      "default": "color"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "parallaxRight": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}

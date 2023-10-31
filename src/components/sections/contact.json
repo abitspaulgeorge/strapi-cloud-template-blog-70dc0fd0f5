@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "contactExternalsLinks": {
+      "displayName": "Contact Externals Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.contact-externals-link"
+    }
+  }
+}

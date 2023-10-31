@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_sections_two_columns_lists",
+  "info": {
+    "displayName": "Two Columns List"
+  },
+  "options": {},
+  "attributes": {
+    "gridItems": {
+      "displayName": "Two Columns Grid Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.two-columns-grid-item"
+    },
+    "parallaxLeftFirst": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "parallaxLeftSecond": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "parallaxLeftThird": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "parallaxRightFourth": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "parallaxRightFifth": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "parallaxRightSixth": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "paddings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "padding.padding"
+    }
+  }
+}
